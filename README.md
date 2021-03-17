@@ -54,5 +54,5 @@ Options
     sass --watch --style compressed src/sass/:public/stylesheets
     
 <br>
-출처 : http://frontend.diffthink.kr/2016/09/scss.html
+출처 : http://frontend.diffthink.kr/2016/09/scss.html <br>
 참고 : http://junil-hwang.com/blog/scss-2-css-complie/
