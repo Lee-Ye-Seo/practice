@@ -52,3 +52,6 @@ Options
 * compressed : 모든 요소를 공백없이 컴파일
 
     sass --watch --style compressed src/sass/:public/stylesheets
+    
+<br>
+출처 : http://frontend.diffthink.kr/2016/09/scss.html
