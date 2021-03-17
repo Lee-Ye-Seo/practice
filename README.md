@@ -1,6 +1,6 @@
 # practice
 My first practice git-hub
-
+<br><br><br>
 
 콘솔을 통한 컴파일
 [Sass를 통한 컴파일]
@@ -27,3 +27,26 @@ ruby 설치 후 Command 창으로 들어가서 다음을 치면 sass가 설치�
 
 앞이 컴파일을 하는 scss 파일이고, 뒤에 css 파일명이 컴파일 후 생성되는 파일 이름이다.
 이렇게 하면 output.css 파일과 output.map 파일이 생기는데, output.css는 컴파일이 진행된 파일이고, map 파일은 scss 와 css가 어떻게 연결 되어 있는지에 대한 정보 파일 정도로 이해 하면 된다.
+
+
+
+매번 컴파일을 할 수는 없기 때문에, 파일이 변경 되면 자동으로 컴파일 하도록 설정할 수 있는데,
+
+sass --watch input.scss:output.css
+
+이렇게 하면 input.scss 파일이 변경될 때마다 자동으로 감지하고 output.css 파일을 생성 한다.
+이 행위를 watch를 걸었다고 하는데, 폴더를 대상으로 할 수도 있다.
+
+sass --watch src/sass/:public/stylesheets
+
+현재 폴더에서 src/sass 폴더를 포함, 자식폴더 까지의 모든 .scss파일을 public/stylesheets 폴더에 경로를 맞춰서 컴파일 된다.
+가장 무난한 방법이다.
+컴파일 스타일을 결정할 수 있는데 --style 옵션을 통해서 할 수 있다.
+
+Options
+- nested : 뎁스별로 구분해서 컴파일
+- compact : 요소에 스타일이 속성을 한줄씩 정렬해서 컴파일
+- expanded : 요소에 모든 스타일을 한줄에 컴파일
+- compressed : 모든 요소를 공백없이 컴파일
+
+sass --watch --style compressed src/sass/:public/stylesheets
