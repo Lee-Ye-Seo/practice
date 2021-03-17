@@ -10,14 +10,12 @@ My first practice git-hub
 
 - 윈도우
 Sass는 ruby 가 설치 되어 있어야 한다. (윈도우용 ruby : http://rubyinstaller.org/)
-ruby 설치 후 Command 창으로 들어가서
+ruby 설치 후 Command 창으로 들어가서 다음을 치면 sass가 설치된다.
 
 gem install sass
 
-Sass 가 설치된다.
 
 - 맥
-
 맥은 기본적 으로 ruby가 설치되어 있기 때문에, 별다른 과정 없이 터미널 에서 설치를 진행하면 된다.
 
 gem install sass
