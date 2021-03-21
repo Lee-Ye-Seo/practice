@@ -55,4 +55,6 @@ Options
     
 <br>
 출처 : http://frontend.diffthink.kr/2016/09/scss.html <br>
-참고 : http://junil-hwang.com/blog/scss-2-css-complie/
+참고 : http://junil-hwang.com/blog/scss-2-css-complie/ <br>
+참고 : https://mahyuna.tistory.com/4
+
